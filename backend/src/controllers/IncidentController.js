@@ -48,6 +48,9 @@ module.exports = {
       .select('ong_id')
       .first();
 
+    if (!incident) {
+      return response.status(401).json({ error: 'This incident already excluded' })
+    }
     if (incident.ong_id != ong_id) {
       return response.status(401).json({ error: 'Operation not permited' })
     }
