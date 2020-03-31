@@ -1,5 +1,10 @@
-![](/frontend/src/assets/logo.svg)
-![](/frontend/src/assets/heroes.png)
+<h1 align="center">
+    <img alt="Semana OmniStack" src="/frontend/src/assets/logo.svg"/>
+</h1>
+<h1 align="center">
+    <img alt="Semana OmniStack" src="/frontend/src/assets/heroes.png"/>
+</h1>
+
 
 
 # Be The Hero
